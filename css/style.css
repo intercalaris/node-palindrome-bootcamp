@@ -1,0 +1,68 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2rem;
+  margin: 1rem;
+  font-weight: 600;
+}
+
+.button {
+  margin: 1rem;
+}
+
+.hidden {
+  display: none;
+}
